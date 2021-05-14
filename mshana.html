@@ -32,6 +32,69 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
+    <style>
+        body{
+  font-family: 'Nunito', sans-serif;
+  padding: 50px;
+  
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+	max-width:100%;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+	
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 90px;
+	max-width:100%;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+
+        
+    </style>
 </head>
 
 <body id="top">
@@ -136,33 +199,54 @@
     </section> <!-- end s-home -->
 
 
-    
+        
     <!-- works
     ================================================== -->
-    <section id='works' class="s-works">
+    <section id="works" class="s-works">
                 
-        <div class="row section-header" data-aos="fade-up">
+        <div class="row section-header aos-init" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Featured Works</h3>
-                <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
+                <h3 class="subhead">My Services</h3>
+                <h1 class="display-1">These are some of my recent Service projects am so excited to show them to you.</h1>
             </div>
         </div> <!-- end section-header -->
-<div class="row">
-    <div class="col-md-5">
-      <ul>
-          <a href="https://www.synarge.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.synarge.co.tz</li></a>
-          <a href="https://www.smarkcoregroup.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.smarkcoregroup.co.tz</li>
-          <a href="https://www.fakhbros.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.fakhbros.co.tz</li>
-          <a href="https://www.bgw.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.bgw.co.tz</li>
-          <a href="https://www.jtt.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.jtt.co.tz</li>
-          <a href="https://www.cmihomebaseprotection.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.cmihomebaseprotection.co.tz</li>
-          <a href="https://www.explorerstzltd.com" target="_blank" data-aos="fade-up"><li class="subhead">www.explorerstzltd.com</li>
-          <a href="https://www.aspire.co.tz" target="_blank" data-aos="fade-up"><li class="subhead">www.aspire.co.tz</li>
-      </ul>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card card-1">
+        <h3>Search engine optimization & mrkerting</h3>
+        <p>I tke an individual approach to every customer project in some cases I may focus mre on SEO ,while in others 
+		we'll dig more into PPC(Pay-Per-Click),social media or conversion optimization.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-2">
+        <h3>Web design&development</h3>
+        <p>I create a Websites , encompass several different aspect, including webpage layout ,content production and graphic design.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-3">
+        <h3>User experience</h3>
+        <p>I create products that provide meaningful and relevant experiences to user. This involves the design of the entire process of acquiring and integrating the product, 
+		including aspects of branding,design ,usability and function.</p>
+      </div>
+    </div>
   </div>
 </div>
 
-    </section> <!-- end s-works -->
+
+
+
+
+
+
+
+<a href="https://www.aspire.co.tz/" target="_blank" data-aos="fade-up" class="aos-init">
+
+    </a></section><a href="https://www.aspire.co.tz/" target="_blank" data-aos="fade-up" class="aos-init"> <!-- end s-works -->
+
 
 
     <!-- stats
